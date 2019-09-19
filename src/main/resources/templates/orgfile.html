@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Organization Search</h2>
+<h2>ticket Search</h2>
+<h4>You can select  your searching term  from billow searching term box and enter the key word  or
+    <br>simply search your key Word using billow search box  </h4>
+
+<form action="/getorg">
+
+
+    <select name="text">
+        <option value="searching term"> searching term</option>
+        <option value="_id">id</option>
+        <option value="name">name</option>
+        <option value="external_id">external_id</option>
+        <option value="type">type</option>
+
+
+    </select>
+    <br><br>
+
+
+    <input type="text" name="value">
+    <input type="submit" value="search">
+
+
+</form>
+
+</body>
+</html>

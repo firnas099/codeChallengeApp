@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>User Search</h1>
+
+
+<!--<form action="/one">-->
+    <!--<input type="text" name="text">-->
+    <!--<input type="submit" name="enter">-->
+
+<!--</form>-->
+
+
+<h4>You can select  your searching term  from billow searching term box and enter the key word  or
+    <br>simply search your key Word using billow search box  </h4>
+
+
+<form action="/one">
+    <select name="text">
+        <option value="searching term"> searching term</option>
+        <option value="_id">id</option>
+        <option value="name">name</option>
+        <option value="external_id">external_id</option>
+
+        <option value="created_at">created date and time </option>
+        <option value="alias"> alias</option>
+    </select>
+    <br><br>
+    <input type="text" name="value">
+    <input type="submit" value="Search">
+</form>
+
+</body>
+</html>
